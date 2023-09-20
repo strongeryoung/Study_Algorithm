@@ -1,0 +1,15 @@
+# mem_mbti = {'강민석':'infj', '강세영':'istp', '박랑희':'estj', '조윤주':'intj', 'Akti':'estj'}
+# print(mem_mbti['Akti'])
+# print(mem_mbti['강세영'])
+
+# print(mem_mbti.get('강세영')) #이때는 소괄호
+# print(mem_mbti['공명'])
+# print(mem_mbti.get('공명', 'cute'))
+
+def solution(my_string, n): 
+    answer = ''
+    for i in my_string:
+        answer += i * n
+    return answer
+
+print(solution)

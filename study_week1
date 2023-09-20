@@ -1,0 +1,82 @@
+# Study_Algorithm
+print(5,2+4,3, sep='\n', end=' ')
+print("나는", "행복합니다", sep='\t')
+
+# 출력 결과 : ?
+
+animal = "강아지" # 문자열 자료형
+name = "연탄"
+age = 4 # 숫자 자료형
+hobby = "산책" 
+is_adult = age >= 3 # boolean 자료형
+
+# 변수와 문자열을 같이 출력하는 방법
+print("우리집 " + animal + "의 이름은 " + name + "입니다.")
+print("우리집 ", animal, "의 이름은 ", name, "입니다.", sep='')
+print(f"우리집 {animal}의 이름은 {name}입니다.") ## 문자열 포맷팅 : 그냥 이것만 쓰자!
+
+# Q1 - 연산자
+number = 5
+
+number = number ** 2
+number //= 2
+
+print(number) # 출력 결과 : ?
+
+# Q2 - 숫자 함수
+from math import *
+number = -16
+
+print(sqrt(max(abs(number),14))) # 출력 결과 : ?
+
+# 랜덤 함수
+from random import *
+number1 = randint(1,45) # 1이상, 45이하 랜덤 정수
+number2 = random() # 0 ~ 1의 임의의 값
+print(number1, number2)
+
+name = "강민석"
+born_date = "19971003"
+
+# 슬라이싱
+print(f"성 : {name[0]}")
+print(f"이름 : {name[1:]}")
+print(f"년도 : {born_date[:4]}")
+print(f"일 : {born_date[-2:]}")
+
+# Q1 - 문자열 처리 함수
+sentence = "Python is amazing"
+print(sentence.count("i")) # 출력 결과 : ?
+sentence.replace("amazing", "good")
+print(sentence.find('good')) # 출력 결과 : ?
+print(len(sentence)) # 출력 결과 : ?
+
+# 익스케이프 문자열
+# \\ : 문장 내에서 \
+# \", \' : 문장 내에서 ", '
+# \n : 줄바꿈, \t : 탭
+print("스터디\t화이팅")
+print("C:\\Users")
+
+name = "강민석"
+born_date = "19971003"
+
+# 슬라이싱
+print(f"성 : {name[0]}")
+print(f"이름 : {name[1:]}")
+print(f"년도 : {born_date[:4]}")
+print(f"일 : {born_date[-2:]}")
+
+# Q1 - 문자열 처리 함수
+sentence = "Python is amazing"
+print(sentence.count("i")) # 출력 결과 : ?
+sentence = sentence.replace("amazing", "good")
+print(sentence.find('good')) # 출력 결과 : ?
+print(len(sentence)) # 출력 결과 : ?
+
+# 익스케이프 문자열
+# \\ : 문장 내에서 \
+# \", \' : 문장 내에서 ", '
+# \n : 줄바꿈, \t : 탭
+print("스터디\t화이팅")
+print("C:\\Users")
