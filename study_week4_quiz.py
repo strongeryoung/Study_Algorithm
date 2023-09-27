@@ -81,5 +81,3 @@ class TraineeIVE(IVE):
 trainee_jane = TraineeIVE("제인", 20, 12)
 
 print(trainee_jane.introduce())
-
-{v:i for i, v in word_dic.item()} # 인덱스 거꾸로 / 인덱스 0은 쓰지 말것, 0은 모르는 단어 찾을때 사용
