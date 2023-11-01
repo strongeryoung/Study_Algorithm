@@ -1,6 +1,7 @@
 # Final Project : Hangman Game 
 
 경희대학교 대학원 빅데이터응용학과 Python 스터디 Final Project
+
 #1. 행맨 게임 소개
 
 - 랜덤으로 선택된 단어를 맞추는 게임으로, 플레이어는 단어의 각 글자를 추측하여 맞추는 게임
