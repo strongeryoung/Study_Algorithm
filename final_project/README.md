@@ -25,6 +25,13 @@
    플레이어가 모든 글자가 맞춘 경우 : 플레이어는 단어를 맞추고 이기게 됩니다.
    남은 횟수가 주어진 기회를 초과하는 경우 : 플레이어는 게임을 진행하지 못하고 패배합니다.
 
+![image](https://github.com/strongeryoung/Study_Algorithm/assets/141051744/acd1aebd-c1ae-494b-98e8-b97759e6004a)
+
+
+![image](https://github.com/strongeryoung/Study_Algorithm/assets/141051744/d316bbe2-7859-453d-8ce7-7744698d8225)
+
+
+
 
 
 
